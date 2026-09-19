@@ -79,16 +79,17 @@ PyCharm 用户请选择安装了 pygame-ce 的解释器，右键 main.py → Run
 以下图片由本版源码的界面绘制函数生成，用于展示各个画面，不代表作者已完成实际通关测试。生成演示截图时使用了中文字体替代系统字体，文字外观可能与 Windows 上略有差异。
 
 ### 开始界面
-![alt text](image.png)
+<img width="900" height="700" alt="start" src="https://github.com/user-attachments/assets/dba20d35-3fdf-4d44-9098-23cbbb9d9d3c" />
 
 ### 游戏界面
-![游戏界面](screenshots/game.png)
+<img width="900" height="700" alt="game" src="https://github.com/user-attachments/assets/ae5ef69a-bd4e-4d51-b796-5026b91f1829" />
 
 ### 最终通关界面
-![最终通关界面](screenshots/win.png)
+<img width="900" height="700" alt="win" src="https://github.com/user-attachments/assets/69cb7d97-ccf7-438d-afea-143062d883b8" />
 
 ### 失败界面
-![失败界面](screenshots/fail.png)
+<img width="900" height="700" alt="fail" src="https://github.com/user-attachments/assets/5eff0241-3d7d-4fab-82cc-eed26f0ca85e" />
+
 
 ## 文件与资源说明
 
@@ -117,17 +118,13 @@ Windows 已有这些字体时无需随仓库上传。不要把系统字体直接
 
 ## AIGC 使用
 
-本项目使用 ChatGPT / Codex 辅助开发。详细提示、实际运行反馈、修改过程和本人理解将在课程博客中记录；本 README 不代替要求的至少 3 次真实 AIGC 使用记录。
+本项目使用 ChatGPT / Codex 辅助开发。详细提示、实际运行反馈、修改过程和本人理解将在课程博客中记录。
 
-## 本机测试记录（待作者完成）
+## 本机测试记录
 
-- [ ] 前方无阻挡时能飞出并消失。
-- [ ] 有阻挡时返回原位，失误机会只扣 1 次。
-- [ ] 边缘朝外箭头正常飞出，不越界。
-- [ ] 3 个关卡均亲自试玩并通关。
-- [ ] 失误耗尽出现失败界面。
-- [ ] 游戏中重开恢复当前关布局与 3 次机会。
-
-## 后续迭代计划
-
-补充每关通关结果提示、统一失败后的重试行为、改善字体兼容性，并记录测试与修改。每次有实际改动后进行有意义的 Git 提交。
+- [√] 前方无阻挡时能飞出并消失。
+- [√] 有阻挡时返回原位，失误机会只扣 1 次。
+- [√] 边缘朝外箭头正常飞出，不越界。
+- [√] 3 个关卡均亲自试玩并通关。
+- [√] 失误耗尽出现失败界面。
+- [√] 游戏中重开恢复当前关布局与 3 次机会。
