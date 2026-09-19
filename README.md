@@ -42,12 +42,6 @@
 2. 在项目目录打开终端，安装依赖：
 
 ```bash
-python -m pip install -r requirements.txt
-```
-
-也可以只执行：
-
-```bash
 python -m pip install pygame-ce==2.5.8
 ```
 
