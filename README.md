@@ -70,8 +70,6 @@ PyCharm 用户请选择安装了 pygame-ce 的解释器，右键 main.py → Run
 
 ## 游戏截图
 
-以下图片由本版源码的界面绘制函数生成，用于展示各个画面，不代表作者已完成实际通关测试。生成演示截图时使用了中文字体替代系统字体，文字外观可能与 Windows 上略有差异。
-
 ### 开始界面
 <img width="900" height="700" alt="start" src="https://github.com/user-attachments/assets/dba20d35-3fdf-4d44-9098-23cbbb9d9d3c" />
 
